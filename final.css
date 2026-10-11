@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbaar {
+  background-color: rgb(3, 3, 55);
+  height: 55px;
+  width: vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navlogo {
+  height: 40px;
+  width: 100px;
+  position: relative;
+  left: 20px;
+}
+.logo {
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  height: 40px;
+  width: 100px;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+.navadress {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.address1 {
+  font-size: 10px;
+}
+.address2 {
+  font-size: 14px;
+}
+/* box 3 */
+.navsearch {
+  display: flex;
+  background-color: rgba(214, 217, 56, 0.321);
+}
+.seaechicon {
+  width: 40px;
+  background-color: azure;
+}
+.zon {
+  width: 300px;
+}
+.icon {
+  width: 0px;
+}
+/* box 4  */
+.signin {
+  color: aliceblue;
+}
+
+/* box 5  */
+.order {
+  color: white;
+}
+.return {
+  font-size: 20px;
+}
+/* box 6  */
+.clogo i {
+  color: white;
+  font-size: 20px;
+}
+.wcart {
+  color: white;
+}
+/* pannal 2 */
+.pannal {
+  height: 40px;
+  background-color: rgba(6, 6, 58, 0.404);
+  display: flex;
+  align-items: center;
+  /*  align item is use for vertical center  */
+  justify-content: space-evenly;
+  /* and justify contant is use for horrigontal centre  */
+}
+.offer {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.menu {
+  margin-right: 50px;
+}
+
+.sales {
+  margin-left: 50px;
+}
+
+.image {
+  background-image: url(bavkground\ azmazon.png);
+  background-size: cover;
+  height: 350px;
+}
+.deals {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  position: relative;
+  left: 20px;
+  top: 30px;
+  color: azure;
+}
+
+/* shoping */
+.shoping{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgba(186, 232, 253, 0.459);
+}
+.box{
+  border:2px solid black;
+  height: 16rem;
+  width: 23%;
+  margin-top: 5px;
+  color: rgb(39, 13, 6);
+  font-family:cursive;
+  
+
+}
+.box1{
+  background-image:url(box1_image.jpg);
+  background-size: cover;
+  
+}
+.box2{
+  background-image:url(box2_image.jpg);
+  background-size: cover;
+}.box3{
+  background-image:url(box3_image.jpg);
+  background-size: cover;
+}.box4{
+  background-image:url(box4_image.jpg);
+  background-size: cover;
+}.box5{
+  background-image:url(box5_image.jpg);
+  background-size: cover;
+}.box6{
+  background-image:url(box6_image.jpg);
+  background-size: cover;
+}.box7{
+  background-image:url(box7_image.jpg);
+  background-size: cover;
+}.box8{
+  background-image:url(box8_image.jpg);
+  background-size: cover;
+}
+.footter{
+  background-color:rgb(72, 72, 186);
+  height:20px;
+  width:100%;
+  color:rgb(0, 3, 4);
+  display:flex;
+  justify-content: center;
+  margin-top:5px;
+}
+.footter2{
+  background-color: rgb(6, 6, 54);
+  height :400px;
+  display: flex;
+  color: rgb(159, 209, 255);
+  justify-content: space-evenly;
+  font-size: 1rem;
+
+
+
+}
+ul{
+  margin-top: 10px;
+}
+ul a{
+  display: block; 
+  color: rgb(255, 249, 249);
+  font-size:1rem;
+}
+.footter3{
+  border-top: 1px solid white;
+  height: 49px ;
+  background-color: rgb(4, 4, 26);
+  display: flex;
+  justify-content: center;
+}
+.img3{
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  height: 40px;
+  width: 100px;                                         
+
+}
+.footter4{
+  background-color: rgb(12, 12, 81);
+  height: 100px;
+  display: flex; 
+  justify-content: center;
+  justify-content:space-evenly;
+
+}
+a{
+  color:white;
+  gap: 20px;
+}
+.last{
+  text-align: center;
+}
